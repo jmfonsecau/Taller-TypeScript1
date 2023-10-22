@@ -1,13 +1,13 @@
-export class Serie{
+export class Serie {
     numero: number;
-    nombre: String;
-    canal: String;
+    nombre: string;
+    canal: string;
     temporadas: number;
-    descripcion: String
-    pagina: String;
-    imagen: String;
+    descripcion: string;
+    pagina: string;
+    imagen: string;
 
-    constructor(numero: number, nombre: String, canal: String, temporadas: number, descripcion: String, pagina: String, imagen: String){
+    constructor(numero: number, nombre: string, canal: string, temporadas: number, descripcion: string, pagina: string, imagen: string) {
         this.numero = numero;
         this.nombre = nombre;
         this.canal = canal;
@@ -15,7 +15,5 @@ export class Serie{
         this.descripcion = descripcion;
         this.pagina = pagina;
         this.imagen = imagen;
-
     }
-
 }
